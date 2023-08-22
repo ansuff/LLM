@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "llm"
+version = "0.1.0"
+description = ""
+authors = ["Anas Suffo <anassaffo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.1"
+jupyterlab-kernel-usage = "^0.6.0"
+pandas = "^2.0.3"
+torch = "^2.0.1"
+torchdata = "^0.6.1"
+transformers = "^4.31.0"
+datasets = "^2.14.4"
+ipykernel = "^6.25.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
